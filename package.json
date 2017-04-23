@@ -1,0 +1,27 @@
+{
+  "name": "warsawjs-workshop-5-chat",
+  "version": "1.0.0",
+  "description": "Node chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "port": "PORT=30000 node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdakowicz/warsawjs-workshop-5-chat.git"
+  },
+  "author": "jakub dakowicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdakowicz/warsawjs-workshop-5-chat/issues"
+  },
+  "homepage": "https://github.com/jdakowicz/warsawjs-workshop-5-chat#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
